@@ -7,7 +7,7 @@ export default function HomeScreen(props) {
         <View>
             <Pressable style={styles.searchButton} onPress={() => { }} >
                 <Fontisto name="search" size={25} color="#f15454" />
-                <Text style={styles.searchButtonText}>Explore Near By Places..</Text>
+                <Text style={styles.searchButtonText}>Where are you going?</Text>
             </Pressable>
 
             <ImageBackground source={require('../../../assets/images/wallpaper.jpg')} style={styles.image} >

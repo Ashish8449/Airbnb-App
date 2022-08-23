@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
     buttonText: {
         fontSize: 16,
         fontWeight: "bold",
+        color: 'black'
     }
     , searchButton: {
         flexDirection: "row",
@@ -49,7 +50,9 @@ const styles = StyleSheet.create({
 
     },
     searchButtonText: {
-
+        fontSize: 16,
+        fontWeight: "bold",
+        color: 'black'
     }
 
 })
