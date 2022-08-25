@@ -15,6 +15,7 @@ import HomeScreen from './src/screens/Home';
 import feed from './assets/data/feed'
 import SearchResultScreen from './src/screens/SearchResult';
 import DestionationSearch from './src/screens/DestinationSearch';
+import GuestsScreen from './src/screens/Guests';
 
 
 const App = () => {
@@ -26,7 +27,8 @@ const App = () => {
       <SafeAreaView>
         {/* <HomeScreen /> */}
         {/* <SearchResultScreen /> */}
-        <DestionationSearch />
+        {/* <DestionationSearch /> */}
+        <GuestsScreen/>
 
       </SafeAreaView>
 
